@@ -1,18 +1,11 @@
 {
-  "extends": "stylelint-config-standard-scss",
+  "extends": ["stylelint-config-standard-scss", "stylelint-config-prettier"],
   "rules": {
     "at-rule-empty-line-before": [
       "always",
       {
-        "except": [
-          "blockless-after-same-name-blockless",
-          "first-nested"
-        ],
-        "ignore": [
-          "after-comment"
-        ]
+        "except": ["blockless-after-same-name-blockless", "first-nested"]
       }
-    ],
-    "indentation": 4
+    ]
   }
 }
