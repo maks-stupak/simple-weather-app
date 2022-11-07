@@ -1,0 +1,13 @@
+{
+    "*.(js|ts)": [
+      "prettier --check",
+      "eslint"
+    ],
+    "*.html": [
+      "eslint"
+    ],
+    "*.(css|scss)": [
+        "stylelint",
+        "prettier --check"
+    ]
+  }
