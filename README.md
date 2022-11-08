@@ -1,7 +1,7 @@
 # Simple weather app
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9f5d9a6f9c1474a8da0b/maintainability)](https://codeclimate.com/github/maks-stupak/simple-weather-app/maintainability)
-[![CI](https://github.com/maks-stupak/simple-weather-app/workflows/ci/badge.svg](https://github.com/maks-stupak/simple-weather-app/actions)
+[![CI](https://github.com/maks-stupak/simple-weather-app/actions/workflows/ci.yml/badge.svg)](https://github.com/maks-stupak/simple-weather-app/actions/workflows/ci.yml)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Weather widget made with Angular
