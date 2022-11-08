@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
-      
+
       - name: Build app
         run: npm run build
 
@@ -27,9 +27,9 @@ jobs:
 
       - name: Check with stylelint
         run: npm run lint:styles
-      
+
       - name: Check with prettier
         run: npx prettier --check .
-      
+
       - name: Check test coverage
         run: npm run test:ci:coverage
